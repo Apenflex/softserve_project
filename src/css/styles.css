@@ -1,8 +1,4 @@
-@import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
-
-@import 'base/variables';
-@import 'base/mixins';
 
 * {
     font-family: 'Hind', sans-serif;
@@ -14,4 +10,8 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+h1 {
+    color: blue;
 }
