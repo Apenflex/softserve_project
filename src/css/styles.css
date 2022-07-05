@@ -3,6 +3,7 @@
     --firstcolor: rgb(44, 46, 56);
     --secondcolor: rgb(3, 135, 252);
     --thirdcolor:  rgb(111, 116, 144);
+    --fourcolor: rgb(90, 94, 117);
 }
 * {
     font-family: 'Work Sans', 'Hind', sans-serif;
@@ -53,9 +54,9 @@
     column-gap: 25px;
 }
 .pricing__card {
-    background: silver;
+    /* background: silver; */
     padding: 50px 40px;
-    box-shadow: 5px 5px 10px 7px rgba(107, 238, 7, 0.05);
+    box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
     border-radius: 6px;
 
 }
@@ -68,4 +69,64 @@
 img {
     width: 100px;
     height: 100px;
+}
+
+.pricing__card-items_title {
+    margin-top: 20px;
+    font-size: 21px;
+    font-family: 'Hind', sans-serif;
+    color: var(--fourcolor);
+}
+
+.pricing__card-items_price {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+.pricing__card-items_price_blue {
+    color: var(--secondcolor);
+}
+
+.pricing__card-items_descr1 {
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: 'Hind', sans-serif;
+    color: var(--thirdcolor);
+}
+.pricing__card-items_descr2 {
+    font-size: 17px;
+    font-family: 'Hind', sans-serif;
+    color: var(--thirdcolor);
+}
+.pricing__card-items_descr3 {
+    font-size: 17px;
+    font-family: 'Hind', sans-serif;
+    color: var(--thirdcolor);
+}
+
+.divider {
+    width: 100%;
+    border-top: 1px solid var(--thirdcolor);
+    margin: 15px 0;
+    font-weight: 400;
+    font-family: 'Hind', sans-serif;
+}
+
+
+.pricing__btn {
+    width: 165px;
+    height: 50px;
+    padding: 13px 34px;
+    margin-top: 40px;
+    border: 2px solid var(--secondcolor);
+    background: transparent;
+    color: var(--secondcolor);
+    font-size: 14px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+}
+.pricing__btn:hover {
+    background: var(--secondcolor);
+    color: #fff;
+    cursor: pointer;
 }
