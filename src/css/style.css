@@ -21,7 +21,7 @@
 .pricing__plans {
     padding: 145px 0 150px 0;
     min-height: 1130px;
-    /* background: url(/src/img/12491_generated.jpg) center (center/cover) no-repeat; */
+    background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, rgb(243, 244, 248);
 }
 .pricing__header {
     text-align: center;
@@ -38,6 +38,11 @@
     margin-top: 20px;
     width: 100%;
 }
+@media (max-width: 992px) {
+    .pricing__title {
+        font-size: 48px;
+    }
+}
 .pricing__subtitle {
     text-align: center;
     color: var(--thirdcolor);
@@ -53,13 +58,25 @@
     grid-template-rows: minmax(auto, 620px);
     column-gap: 25px;
 }
+@media (max-width: 992px) {
+    .pricing__wrapper {
+        grid-template-rows: minmax(auto, 560px);
+    }
+}
+
 .pricing__card {
-    /* background: silver; */
+    background: #ffffff;
     padding: 50px 40px;
     box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
-    border-radius: 6px;
-
+    border-radius: 6px;  
 }
+
+@media (max-width: 992px) {
+    .pricing__card {
+        padding: 25px 25px;
+    }
+}
+
 .pricing__card-items {
     display: flex;
     flex-direction: column;
@@ -119,7 +136,8 @@ img {
     padding: 13px 34px;
     margin-top: 40px;
     border: 2px solid var(--secondcolor);
-    background: transparent;
+    text-align: center;
+    text-decoration: none;
     color: var(--secondcolor);
     font-size: 14px;
     font-family: 'Hind', sans-serif;
