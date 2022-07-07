@@ -266,3 +266,9 @@
         padding: 10px 20px;
     }
 }
+/* ---- Section 9 contacts ---- */
+.contacts {
+    background: var(--secondcolor);
+    min-height: 420px;
+    padding: 140px 0 55px;
+}
