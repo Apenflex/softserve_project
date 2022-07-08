@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
-@import url(section_8/pricing__plans.css);
-@import url(section_9/contacts.css);
-@import url(footer/footer.css);
+@import url(pricing__plans.css);
+@import url(contacts.css);
+@import url(footer.css);
 
 :root {
     --firstcolor: rgb(44, 46, 56);
