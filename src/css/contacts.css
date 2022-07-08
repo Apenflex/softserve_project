@@ -1,0 +1,73 @@
+/* ---- Section 9 contacts ---- */
+.contacts {
+    background: #0387fc;
+    min-height: 420px;
+    padding: 140px 0 55px;
+}
+.contacts__wrapper {
+    display: flex;
+}
+.contacts__question {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    max-width: 66.66667%;
+}
+.contacts__about {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 33.33333%;
+}
+
+
+
+.contacts__title {
+    font-size: 78px;
+    line-height: 85.8px;
+    color: #ffff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+.contacts__subtitle {
+    margin-top: 35px;
+    color: #FFFF;
+    font-size: 17px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+}
+.contacts__business-title, .contacts__support-title {
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    color: #FFFF;
+    font-weight: 400;
+    line-height: 25.5px;
+    margin-top: 18px;
+}
+.contacts__mail {
+    color: #FFFF;
+    font-size: 19px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    line-height: 32.3px;
+    margin-top: 10px;
+}
+.contacts__icon-items {
+    margin-top: 30px;
+}
+.contacts__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.contacts__list li {
+    margin: 0 5px 10px;
+}
+.contacts__list li i {
+    font-size: 21px;
+    color: #FFF;
+}
+.contacts__list li i:hover {
+    color:rgb(111, 116, 144);
+    transition: .4s ease-out all;
+}
