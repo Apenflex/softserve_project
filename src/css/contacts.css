@@ -4,8 +4,26 @@
     min-height: 420px;
     padding: 140px 0 55px;
 }
+@media (max-width: 768px) {
+    .contacts {
+        padding: 60px 0 30px;
+    }
+}
+@media (max-width: 576px) {
+    .contacts {
+        padding: 25px 0 25px;
+        min-height: 410px;
+    }
+}
 .contacts__wrapper {
     display: flex;
+}
+@media (max-width: 768px) {
+    .contacts__wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .contacts__question {
     display: flex;
@@ -13,11 +31,44 @@
     padding: 0 15px;
     max-width: 66.66667%;
 }
+@media (max-width: 992px) {
+    .contacts__question {
+        max-width: 60.66667%;
+    }
+}
+@media (max-width: 768px) {
+    .contacts__question {
+        max-width: 100%;
+        text-align: center;
+        padding: 0 35px;
+    }
+}
+@media (max-width: 576px) {
+    .contacts__question {
+        padding: 0;
+    }
+}
 .contacts__about {
     padding: 0 15px;
     display: flex;
     flex-direction: column;
     max-width: 33.33333%;
+}
+@media (max-width: 992px) {
+    .contacts__about {
+        max-width: 40.66667%;
+    }
+}
+@media (max-width: 768px) {
+    .contacts__about {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .contacts__about {
+        margin-top: 20px;
+    }
 }
 
 
@@ -29,12 +80,46 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
 }
+@media (max-width: 992px) {
+    .contacts__title {
+        font-size: 62px;
+        line-height: 70.8px;
+    }
+}
+@media (max-width: 768px) {
+    .contacts__title {
+        font-size: 53px;
+        line-height: 55.8px;
+    }
+}
+@media (max-width: 576px) {
+    .contacts__title {
+        font-size: 30px;
+        line-height: 40.8px;
+    }
+}
 .contacts__subtitle {
     margin-top: 35px;
     color: #FFFF;
     font-size: 17px;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
+}
+@media (max-width: 992px) {
+    .contacts__subtitle {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .contacts__subtitle {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .contacts__subtitle {
+        margin-top: 10px;
+        font-size: 14px;
+    }
 }
 .contacts__business-title, .contacts__support-title {
     font-family: 'Hind', sans-serif;
@@ -44,6 +129,11 @@
     line-height: 25.5px;
     margin-top: 18px;
 }
+@media (max-width: 992px) {
+    .contacts__business-title, .contacts__support-title {
+        font-size: 15px;
+    }
+}
 .contacts__mail {
     color: #FFFF;
     font-size: 19px;
@@ -51,6 +141,11 @@
     font-weight: 700;
     line-height: 32.3px;
     margin-top: 10px;
+}
+@media (max-width: 992px) {
+    .contacts__mail {
+        font-size: 16px;
+    }
 }
 .contacts__icon-items {
     margin-top: 30px;
@@ -66,6 +161,16 @@
 .contacts__list li i {
     font-size: 21px;
     color: #FFF;
+}
+@media (max-width: 992px) {
+    .contacts__list li i {
+        font-size: 19px;
+    }
+}
+@media (max-width: 768px) {
+    .contacts__list li i {
+        font-size: 17px;
+    }
 }
 .contacts__list li i:hover {
     color:rgb(111, 116, 144);
