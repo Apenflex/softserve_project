@@ -1,0 +1,80 @@
+.mobile_applications {
+    padding: 150px 0;
+    min-height: 560px;
+}
+.mobile__applications-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.mobile__applications-phone {
+    display: flex;
+    padding: 0 15px;
+    max-width: 40%;
+}
+.mobile__applications-phone img {
+    max-height: 558px;
+    display: block;
+    max-width: 100%;
+}
+.mobile__applications-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 15px;
+    max-width: 60%;
+}
+.mobile__applications__header {
+    color: var(--secondcolor);
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+}
+.mobile__applications__title {
+    font-family: var(--mainfont);
+    font-size: 56px;
+    color: var(--firstcolor);
+    margin-top: 20px;
+    width: 100%;
+}
+.mobile__applications-text {
+    margin-top: 15px;
+    font-family: var(--textfont);
+    font-size: 19px;
+    color: #6f7490;
+}
+
+
+
+.mobile__aplications-icons {
+    display: flex;
+    margin-top: 40px;
+}
+.mobile__applications-icons_appstore {
+    margin: 10px;
+}
+.mobile__applications-icons_googleplay {
+    margin: 10px;
+}
+.mobile__applications-icons_appstore img, .mobile__applications-icons_googleplay img {
+    border-radius: 7px;
+    max-width: 150px;
+    max-height: 52px;
+}
+
+@media (max-width: 992px) {
+    .mobile__applications__title {
+        font-size: 37px;
+    }
+}
+@media (max-width: 992px) {
+    .mobile__applications-text {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 992px) {
+    .mobile__aplications-icons {
+        margin-top: 20px;
+    }
+}
