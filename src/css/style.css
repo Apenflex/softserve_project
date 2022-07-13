@@ -6,13 +6,16 @@
 @import url(footer.css);
 
 :root {
+    /* COLORS */
     --firstcolor: rgb(44, 46, 56);
     --secondcolor: rgb(3, 135, 252);
     --thirdcolor:  rgb(111, 116, 144);
     --fourcolor: rgb(90, 94, 117);
+    /* FONTS */
+    --mainfont: 'Work Sans', sans-serif;
+    --textfont: 'Hind', sans-serif;
 }
 * {
-    font-family: 'Work Sans', 'Hind', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -39,6 +42,5 @@
         padding: 0 10px;
     }
 }
-
 /* Вверху не рухати стилі!!!! */
 

@@ -16,7 +16,7 @@
 .pricing__header {
     text-align: center;
     color: var(--secondcolor);
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     font-size: 13px;
     font-weight: 700;
     width: 100%;
@@ -28,6 +28,7 @@
 }
 
 .pricing__title {
+    font-family: var(--mainfont);
     font-size: 56px;
     text-align: center;
     color: var(--firstcolor);
@@ -57,7 +58,7 @@
     margin-top: 15px;
     width: 100%;
     font-size: 19px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
 }
 @media (max-width: 768px) {
     .pricing__subtitle {
@@ -142,7 +143,7 @@
 .pricing__card-items_title {
     margin-top: 20px;
     font-size: 21px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     color: var(--fourcolor);
 }
 @media (max-width: 576px) {
@@ -155,7 +156,7 @@
 .pricing__card-items_price {
     margin-top: 20px;
     font-size: 50px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: var(--mainfont);
 }
 .pricing__card-items_price_blue {
     color: var(--secondcolor);
@@ -170,17 +171,17 @@
 .pricing__card-items_descr1 {
     margin-top: 30px;
     font-size: 17px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     color: var(--thirdcolor);
 }
 .pricing__card-items_descr2 {
     font-size: 17px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     color: var(--thirdcolor);
 }
 .pricing__card-items_descr3 {
     font-size: 17px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     color: var(--thirdcolor);
 }
 @media (max-width: 576px) {
@@ -194,7 +195,7 @@
     border-top: 1px solid var(--thirdcolor);
     margin: 15px 0;
     font-weight: 400;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
 }
 @media (max-width: 576px) {
     .divider {
@@ -212,7 +213,7 @@
     text-decoration: none;
     color: var(--secondcolor);
     font-size: 14px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     font-weight: 700;
 }
 .pricing__btn:hover {

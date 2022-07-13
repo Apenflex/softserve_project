@@ -64,7 +64,7 @@ footer {
     color: rgba(255, 255, 255, 0.69);
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     font-weight: 500;
 }
 @media (max-width: 992px) {
@@ -96,7 +96,7 @@ footer {
     width: 100%;
     border-top: 1px solid #fff;
     font-weight: 400;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
 }
 .reserved {
     display: flex;
@@ -108,7 +108,7 @@ footer {
     width: 33%;
     color: #ffff;
     font-size: 13px;
-    font-family: 'Hind', san-serif;
+    font-family: var(--textfont);
     font-weight: 700;
 }
 .reserved span:nth-child(3) {
