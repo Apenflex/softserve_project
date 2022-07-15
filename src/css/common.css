@@ -1,0 +1,37 @@
+:root {
+    /* COLORS */
+    --firstcolor: rgb(44, 46, 56);
+    --secondcolor: rgb(3, 135, 252);
+    --thirdcolor:  rgb(111, 116, 144);
+    --fourcolor: rgb(90, 94, 117);
+    /* FONTS */
+    --mainfont: 'Work Sans', sans-serif;
+    --textfont: 'Hind', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 990px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 765px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}

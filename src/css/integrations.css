@@ -159,7 +159,7 @@
     margin-top: 30px;
     font-family: var(--textfont);
     font-size: 17px;
-    color: #6f7490;
+    color: var(--thirdcolor);
 }
 @media (max-width: 576px) {
     .integrations__analytics-about, .integrations__Slack-about, .integrations__capabilities-about {
