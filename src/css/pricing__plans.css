@@ -101,7 +101,7 @@
     }
 }
 .pricing__card {
-    background: #ffffff;
+    background: var(--light-text-color);
     padding: 50px 40px;
     box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
     border-radius: 6px;  
@@ -218,7 +218,7 @@
 }
 .pricing__btn:hover {
     background: var(--button-color);
-    color: #fff;
+    color: var(--light-text-color);
     cursor: pointer;
 }
 @media (max-width: 576px) {

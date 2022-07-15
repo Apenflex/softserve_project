@@ -76,7 +76,7 @@
 .contacts__title {
     font-size: 78px;
     line-height: 85.8px;
-    color: #ffff;
+    color: var(--light-text-color);
     font-family: var(--mainfont);
     font-weight: 700;
 }
@@ -100,7 +100,7 @@
 }
 .contacts__subtitle {
     margin-top: 35px;
-    color: #FFFF;
+    color: var(--light-text-color);
     font-size: 17px;
     font-family: var(--textfont);
     font-weight: 400;
@@ -124,7 +124,7 @@
 .contacts__business-title, .contacts__support-title {
     font-family: var(--textfont);
     font-size: 15px;
-    color: #FFFF;
+    color: var(--light-text-color);
     font-weight: 400;
     line-height: 25.5px;
     margin-top: 18px;
@@ -135,7 +135,7 @@
     }
 }
 .contacts__mail {
-    color: #FFFF;
+    color: var(--light-text-color);
     font-size: 19px;
     font-family: var(--textfont);
     font-weight: 700;
@@ -160,7 +160,7 @@
 }
 .contacts__list li i {
     font-size: 21px;
-    color: #FFF;
+    color: var(--light-text-color);
 }
 @media (max-width: 992px) {
     .contacts__list li i {
