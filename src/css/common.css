@@ -1,9 +1,9 @@
 :root {
     /* COLORS */
-    --firstcolor: rgb(44, 46, 56);
-    --secondcolor: rgb(3, 135, 252);
-    --thirdcolor:  rgb(111, 116, 144);
-    --fourcolor: rgb(90, 94, 117);
+    --title-color: rgb(44, 46, 56);
+    --section-name-color: rgb(3, 135, 252);
+    --text-color:  rgb(111, 116, 144);  
+    --button-color: rgb(3, 135, 252);
     /* FONTS */
     --mainfont: 'Work Sans', sans-serif;
     --textfont: 'Hind', sans-serif;
@@ -19,6 +19,7 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
 @media (max-width: 992px) {
     .container {
         max-width: 990px;
@@ -35,3 +36,4 @@
         padding: 0 10px;
     }
 }
+/* Styles up dont touch */

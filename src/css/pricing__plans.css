@@ -15,7 +15,7 @@
 }
 .pricing__header {
     text-align: center;
-    color: var(--secondcolor);
+    color: var(--section-name-color);
     font-family: var(--textfont);
     font-size: 13px;
     font-weight: 700;
@@ -31,7 +31,7 @@
     font-family: var(--mainfont);
     font-size: 56px;
     text-align: center;
-    color: var(--firstcolor);
+    color: var(--title-color);
     margin-top: 20px;
     width: 100%;
 }
@@ -54,7 +54,7 @@
 }
 .pricing__subtitle {
     text-align: center;
-    color: var(--thirdcolor);
+    color: var(--text-color);
     margin-top: 15px;
     width: 100%;
     font-size: 19px;
@@ -159,7 +159,7 @@
     font-family: var(--mainfont);
 }
 .pricing__card-items_price_blue {
-    color: var(--secondcolor);
+    color: var(--section-name-color);
 }
 @media (max-width: 576px) {
     .pricing__card-items_price {
@@ -172,17 +172,17 @@
     margin-top: 30px;
     font-size: 17px;
     font-family: var(--textfont);
-    color: var(--thirdcolor);
+    color: var(--text-color);
 }
 .pricing__card-items_descr2 {
     font-size: 17px;
     font-family: var(--textfont);
-    color: var(--thirdcolor);
+    color: var(--text-color);
 }
 .pricing__card-items_descr3 {
     font-size: 17px;
     font-family: var(--textfont);
-    color: var(--thirdcolor);
+    color: var(--text-color);
 }
 @media (max-width: 576px) {
     .pricing__card-items_descr1, .pricing__card-items_descr2, .pricing__card-items_descr3 {
@@ -192,7 +192,7 @@
 
 .divider {
     width: 100%;
-    border-top: 1px solid var(--thirdcolor);
+    border-top: 1px solid var(--text-color);
     margin: 15px 0;
     font-weight: 400;
     font-family: var(--textfont);
@@ -208,16 +208,16 @@
     height: 50px;
     padding: 13px 34px;
     margin-top: 40px;
-    border: 2px solid var(--secondcolor);
+    border: 2px solid var(--section-name-color);
     text-align: center;
     text-decoration: none;
-    color: var(--secondcolor);
+    color: var(--button-color);
     font-size: 14px;
     font-family: var(--textfont);
     font-weight: 700;
 }
 .pricing__btn:hover {
-    background: var(--secondcolor);
+    background: var(--button-color);
     color: #fff;
     cursor: pointer;
 }
