@@ -1,4 +1,3 @@
-// OWL Carousel
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,

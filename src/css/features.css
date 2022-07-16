@@ -1,0 +1,91 @@
+.features{
+    margin: 70px 160px 150px;
+}
+
+.features__heading{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    color: var(--section-name-color);
+    font-size: 13px;
+    font-family: var(--textfont);
+    font-weight: 700;
+}
+
+.features__title{
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--title-color);
+    font-family: var(--mainfont);
+    font-size: 56px;
+}
+
+.features__subtitle{
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--textfont);
+    font-size: 19px;
+}
+
+.features__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.features__container-card{
+    width: 270px;
+    padding: 25px;
+    margin: 10px;
+    /* background-color: rgb(255, 255, 255); he is already white */
+    box-shadow: 0 0 8px 3px rgba(44, 46, 56, 0.149);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;   
+    row-gap: 10px; 
+    border-radius: 10px;
+}
+
+.features__card-img{
+    width: 50px;
+    height: 50px;
+}
+
+.features__card-heading{
+    font-size: 26px;
+    font-family: var(--textfont);
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.features__card-para{
+    font-size: 15px;
+    font-family: var(--textfont);
+    color: var(--text-color);
+}
+
+@media (max-width: 1200px){
+    .features{
+        margin: 50px auto;
+        padding: 0 40px;
+    }
+
+    .features__container{
+        flex-wrap: wrap;
+    }
+
+    .features__container-card{
+        width: 400px;
+
+    }
+
+    .features__title{
+        font-size: 47px;
+    }
+
+    .features__card-heading{
+        font-size: 22px;
+    }
+}

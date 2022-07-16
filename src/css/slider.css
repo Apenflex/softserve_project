@@ -1,0 +1,23 @@
+.slider-companies {
+    padding: 120px 0 75px 0;
+}
+.slider__title {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 19px;
+    font-family: var(--textfont);
+    font-weight: 700;
+}
+.slider__title span {
+    color: var( --section-name-color);
+}
+.slider {
+    margin-top: 70px;
+}
+.slider-item {
+    height: auto;
+    width: 25%;
+    padding: 20px 40px;
+    margin-bottom: 15px;
+    background-color: rgb(249, 252, 255);
+}
