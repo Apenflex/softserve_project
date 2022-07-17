@@ -1,6 +1,20 @@
 .analytics {
     padding: 140px 0;
-    min-height: 1320px;
+}
+@media (max-width: 991px) {
+    .analytics {
+        padding: 100px 0;
+    }
+}
+@media (max-width: 767px) {
+    .analytics {
+        padding: 60px 0;
+    }
+}
+@media (max-width: 575px) {
+    .analytics {
+        padding: 40px 0;
+    }
 }
 .analytics__header {
     color: var(--section-name-color);
@@ -18,7 +32,11 @@
     font-weight: 700;
     font-family: var(--mainfont);
 }
-
+@media (max-width: 576px) {
+    .analytics__title {
+        font-size: 21px;
+    }
+}
 .analytics__subtitle {
     margin-top: 15px;
     color: var(--text-color);
@@ -27,9 +45,19 @@
     font-family: var(--textfont);
     font-weight: 400;
 }
+@media (max-width: 576px) {
+    .analytics__subtitle {
+        font-size: 15px;
+    }
+}
 .analytics__picture {
     padding: 0 15px 40px;
     margin-top: 60px;
+}
+@media (max-width: 576px) {
+    .analytics__picture {
+        margin-top: 25px;
+    }
 }
 .analytics__picture img {
     display: block;
@@ -43,17 +71,37 @@
     padding: 30px 10px 0;
     flex-wrap: wrap;
 }
+@media (max-width: 576px) {
+    .analytics__descr {
+        padding: 5px 10px 0;
+    }
+}
 .analytics__icons-widgets,
 .analytics__icons-services,
 .analytics__icons-styles,
 .analytics__icons-requests {
     display: flex;
     padding: 15px 0;
-    width: 200px;
 }
 .analytics__icons-logo img {
     display: block;
     max-width: 70px;
+    margin: auto;
+}
+@media (max-width: 992px) {
+    .analytics__icons-logo img {
+        max-width: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .analytics__icons-logo img {
+        max-width: 40px;
+    }
+}
+@media (max-width: 576px) {
+    .analytics__icons-logo img {
+        max-width: 30px;
+    }
 }
 .analytics__icons-items {
     display: flex;
@@ -67,10 +115,39 @@
     color: var(--title-color);
     font-weight: 700;
 }
-
+@media (max-width: 992px) {
+    .analytics__icons-items-title {
+        font-size: 19px;
+    }
+}
+@media (max-width: 768px) {
+    .analytics__icons-items-title {
+        font-size: 17px;
+    }
+}
+@media (max-width: 576px) {
+    .analytics__icons-items-title {
+        font-size: 16px;
+    }
+}
 .analytics__icons-items-text {
     font-size: 17px;
     font-family: var(--textfont);
     color: var(--text-color);
     font-weight: 400;
+}
+@media (max-width: 992px) {
+    .analytics__icons-items-text {
+        font-size: 17px;
+    }
+}
+@media (max-width: 768px) {
+    .analytics__icons-items-text {
+        font-size: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .analytics__icons-items-text {
+        font-size: 14px;
+    }
 }

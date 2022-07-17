@@ -47,7 +47,7 @@
     }
 }
 .mobile__applications__header {
-    color: var(--secondcolor);
+    color: var(--section-name-color);
     font-family: var(--textfont);
     font-size: 13px;
     font-weight: 700;
@@ -61,7 +61,7 @@
 .mobile__applications__title {
     font-family: var(--mainfont);
     font-size: 56px;
-    color: var(--firstcolor);
+    color: var(--title-color);
     margin-top: 20px;
     width: 100%;
 }
@@ -86,7 +86,7 @@
     margin-top: 15px;
     font-family: var(--textfont);
     font-size: 19px;
-    color: var(--thirdcolor);
+    color: var(--text-color);
 }
 @media (max-width: 992px) {
     .mobile__applications-text {

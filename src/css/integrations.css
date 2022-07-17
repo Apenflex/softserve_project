@@ -10,8 +10,8 @@
 }
 .integrations__header {
     text-align: center;
-    color: var(--secondcolor);
-    font-family: 'Hind', sans-serif;
+    color: var(--section-name-color);
+    font-family: var(--textfont);
     font-size: 13px;
     font-weight: 700;
     width: 100%;
@@ -20,7 +20,7 @@
     font-family: var(--mainfont);
     font-size: 56px;
     text-align: center;
-    color: var(--firstcolor);
+    color: var(--title-color);
     margin-top: 20px;
     width: 100%;
 }
@@ -36,7 +36,7 @@
 }
 .integrations__subtitle {
     text-align: center;
-    color: var(--thirdcolor);
+    color: var(--text-color);
     margin-top: 15px;
     width: 100%;
     font-size: 19px;
@@ -141,7 +141,7 @@
     font-size: 26px;
     line-height: 36px;
     font-family: var(--textfont);
-    color: var(--firstcolor);
+    color: var(--title-color);
     font-weight: 700;
 }
 @media (max-width: 768px) {
@@ -159,7 +159,7 @@
     margin-top: 30px;
     font-family: var(--textfont);
     font-size: 17px;
-    color: var(--thirdcolor);
+    color: var(--text-color);
 }
 @media (max-width: 576px) {
     .integrations__analytics-about, .integrations__Slack-about, .integrations__capabilities-about {
@@ -168,7 +168,7 @@
     }
 }
 .integrations__capabilities-about em {
-    color:var(--firstcolor);
+    color:var(--title-color);
     font-weight: 400;
 }
 .integrations__Slack {
