@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>004-refresh</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="004-refresh">
+            <rect id="Rectangle" fill="#2343C8" x="0" y="0" width="500" height="500" rx="67"></rect>
+            <g id="001-dark-layers" transform="translate(100.000000, 107.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M200.989667,16.6400294 C200.989667,7.47417219 193.487816,0 184.260333,0 L16.7396669,0 C7.49151758,0 0,7.47417219 0,16.6400294 L0,192.359971 C0,201.546333 7.49151758,209 16.7396669,209 L76.1551511,209 L76.1551511,74.936522 C76.1551511,65.7604121 83.6466687,58.2964925 92.894818,58.2964925 L201,58.2964925 L200.989667,16.6400294 L200.989667,16.6400294 Z" id="Path"></path>
+                <path d="M283.269806,78 L115.750861,78 C106.491903,78 99,85.4543983 99,94.6006476 L99,270.358338 C99,279.545602 106.491903,287 115.750861,287 L283.269806,287 C292.497764,287 300,279.545602 300,270.358338 L300,94.6006476 C300,85.4441446 292.48743,78 283.269806,78 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
