@@ -105,6 +105,8 @@
 }
 .testimonials__feed-user-img img {
     display: block;
+    object-position: 0 -1px;
+    object-fit: cover;
     width: 70px;
     height: 70px;
     border-radius: 50%;
