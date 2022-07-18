@@ -1,7 +1,7 @@
 .pricing__plans {
     padding: 145px 0 150px 0;
     min-height: 1130px;
-    background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, rgb(243, 244, 248);
+    background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, var(--background-pricing);
 }
 @media (max-width: 992px) {
     .pricing__plans {
@@ -144,7 +144,7 @@
     margin-top: 20px;
     font-size: 21px;
     font-family: var(--textfont);
-    color: var(--fourcolor);
+    color: var(--text-color);
 }
 @media (max-width: 576px) {
     .pricing__card-items_title{
@@ -211,7 +211,7 @@
     border: 2px solid var(--section-name-color);
     text-align: center;
     text-decoration: none;
-    color: var(--button-color);
+    color: var(--button-text-color);
     font-size: 14px;
     font-family: var(--textfont);
     font-weight: 700;
