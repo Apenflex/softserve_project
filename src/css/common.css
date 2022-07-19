@@ -4,10 +4,12 @@
     --section-name-color: rgb(3, 135, 252);
     --text-color:  rgb(111, 116, 144);  
     --button-color: rgb(3, 135, 252);
+    --dark-button-color: rgb(37, 72, 197);
     --light-button-color: rgb(255, 255, 255);
     --button-text-color: rgb(3, 135, 252);
     --light-text-color: rgb(255, 255, 255);
     --background-feeds-card: rgb(255, 255, 255);
+    --background-management: rgb(243, 244, 248);
     --background-testimonials: rgb(255, 255, 255);
     --background-pricing: rgb(255, 255, 255);
     /* FONTS */

@@ -1,0 +1,143 @@
+.management {
+    background: var(--background-management);
+    padding: 150px 0 75px;
+    min-height: 500px;
+}
+@media (max-width: 768px) {
+    .management {
+        padding: 60px 0 60px;
+    }
+}
+@media (max-width: 576px) {
+    .management {
+        padding: 40px 0 40px;
+    }
+}
+.management-wraper {
+    display: flex;
+}
+@media (max-width: 768px) {
+    .management-wraper {
+        flex-direction: column-reverse;
+    }
+}
+.management__image {
+    flex: 1;
+    padding: 0 15px;
+}
+@media (max-width: 768px) {
+    .management__image {
+        padding: 60px 15px 0;
+    }
+}
+.management__image img {
+    display: block;
+    width: 100%;
+}
+.management__about {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 15px;
+}
+@media (max-width: 768px) {
+    .management__about {
+        align-items: center;
+    }
+}
+.management__header {
+    color: var(--section-name-color);
+    font-family: var(--textfont);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.management__title {
+    font-size: 56px;
+    font-family: var(--mainfont);
+    color: var(--title-color);
+    margin-top: 20px;
+}
+@media (max-width: 992px) {
+    .management__title {
+        font-size: 46px;
+    }
+}
+@media (max-width: 768px) {
+    .management__title {
+        font-size: 36px;
+    }
+}
+@media (max-width: 576px) {
+    .management__title {
+        font-size: 21px;
+        text-align: center;
+    }
+}
+.management__subtitle {
+    color: var(--text-color);
+    margin-top: 15px;
+    font-size: 19px;
+    font-family: var(--textfont);
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    .management__subtitle {
+        font-size: 17px;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .management__subtitle {
+        font-size: 15px;
+    }
+}
+.management__icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+@media (max-width: 768px) {
+    .management__icons {
+        justify-content: center;
+    }
+}
+@media (max-width: 560px) {
+    .management__icons {
+        flex-direction: column;
+    }
+}
+.management__icons-item {
+    display: flex;
+    padding: 10px 10px 10px 0;
+}
+.management__icons-item img {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.icons-text {
+    font-family: var(--textfont);
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    padding-left: 10px;
+}
+.management__button {
+    width: 140px;
+    height: 50px;
+    padding: 13px 34px;
+    background-color:var(--button-color);
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-family: var(--textfont);
+    margin-top: 20px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.management__button:hover {
+    background-color: var(--dark-button-color);
+    transition: 0.4s;
+}

@@ -19,7 +19,7 @@
 .analytics__header {
     color: var(--section-name-color);
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     font-family: var(--textfont);
     font-weight: 700;
 }
