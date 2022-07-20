@@ -1,7 +1,7 @@
 .testimonials {
     padding: 145px 0 150px 0;
     min-height: 1380px;
-    background: url("/img/testimonials/testimonials_main_bg.png") center center / 24px repeat;
+    background: url("/img/testimonials/testimonials_main_bg.webp") center center / 24px repeat;
 }
 @media (max-width: 992px) {
     .testimonials {
