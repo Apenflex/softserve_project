@@ -1,7 +1,7 @@
 .testimonials {
     padding: 145px 0 150px 0;
     min-height: 1380px;
-    background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, var(--background-testimonials);
+    background: url("/img/testimonials/testimonials_main_bg.webp") center center / 24px repeat, var(--background-testimonials);
 }
 @media (max-width: 992px) {
     .testimonials {
@@ -148,7 +148,7 @@
 
 .testimonials__manage-block {
     margin: 150px 15px 0;
-    background: url(/src/img/testimonials/testimonials_section_bg-min.png) center center / cover no-repeat;
+    background: url(/img/testimonials/testimonials_section_bg-min.png) center center / cover no-repeat;
     min-height: 485px;
     display: flex;
     flex-direction: column;
