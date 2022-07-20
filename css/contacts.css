@@ -1,4 +1,3 @@
-/* ---- Section 9 contacts ---- */
 .contacts {
     background: #0387fc;
     min-height: 420px;
@@ -70,9 +69,6 @@
         margin-top: 20px;
     }
 }
-
-
-
 .contacts__title {
     font-size: 78px;
     line-height: 85.8px;

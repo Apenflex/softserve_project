@@ -131,7 +131,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    color: white;
+    color: var(--light-text-color);
     font-family: var(--textfont);
     margin-top: 20px;
     border-radius: 4px;
