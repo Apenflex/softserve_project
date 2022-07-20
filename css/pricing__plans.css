@@ -1,7 +1,7 @@
 .pricing__plans {
     padding: 145px 0 150px 0;
     min-height: 1130px;
-    background: url("/img/pricing_plans/pricing_main_bg.webp") center center / 24px repeat, var(--background-pricing);
+    background: url('img/pricing_plans/pricing_main_bg.webp') center center / 24px repeat, var(--background-pricing);
 }
 @media (max-width: 992px) {
     .pricing__plans {
