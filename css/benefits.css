@@ -3,8 +3,23 @@
     min-height: 530px;
     padding: 70px 0 150px;
 }
+@media (max-width: 991px) {
+    .benefits {
+        padding: 60px 0 100px;
+    }
+}
+@media (max-width: 767px) {
+    .benefits {
+        padding: 60px 0 80px;
+    }
+}
 .benefits__main {
     display: flex;
+}
+@media (max-width: 768px) {
+    .benefits__main {
+        flex-direction: column;
+    }
 }
 .header {
     flex: 1;
@@ -16,12 +31,32 @@
     font-family: var(--textfont);
     font-weight: 700;
 }
+@media (max-width: 768px) {
+    .benefits__header {
+        text-align: center;
+    }
+}
 .benefits__title {
     margin-top: 20px;
     color: var(--title-color);
     font-size: 56px;
     font-weight: 700;
     font-family: var(--mainfont);
+}
+@media (max-width: 992px) {
+    .benefits__title {
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .benefits__title {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .benefits__title {
+        font-size: 21px;
+    }
 }
 .benefits__text {
     flex: 1;
@@ -31,9 +66,24 @@
     color: var(--text-color);
     font-weight: 400;
 }
+@media (max-width: 768px) {
+    .benefits__text {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 576px) {
+    .benefits__text {
+        font-size: 16px;
+    }
+}
 .benefits__preference {
     display: flex;
     margin-top: 60px;
+}
+@media (max-width: 992px) {
+    .benefits__preference {
+        flex-direction: column;
+    }
 }
 .preference__items {
     display: flex;
@@ -41,18 +91,39 @@
     flex-basis: 70%;
     padding: 0 15px;
 }
+@media (max-width: 576px) {
+    .preference__items {
+        padding: 0;
+    }
+}
 .preference__item {
     display: flex;
     flex-basis: 50%;
     margin-bottom: 30px;
 }
+@media (max-width: 576px) {
+    .preference__item {
+        flex-basis: 100%;
+    }
+}
 .preference__item:nth-child(2n) {
     padding-left: 30px;
+}
+@media (max-width: 576px) {
+    .preference__item:nth-child(2n) {
+        padding-left: 0;
+    }
 }
 .preference__item img {
     display: block;
     width: 50px;
     height: 50px;
+}
+@media (max-width: 576px) {
+    .preference__item img {
+        width: 40px;
+        height: 40px;
+    }
 }
 .preference__item-descr {
     display: flex;
@@ -65,11 +136,21 @@
     color: var(--title-color);
     font-weight: 700;
 }
+@media (max-width: 768px) {
+    .preference__item-title {
+        font-size: 20px;
+    }
+}
 .preference__item-text {
     font-size: 17px;
     font-family: var(--textfont);
     color: var(--text-color);
     font-weight: 400;
+}
+@media (max-width: 768px) {
+    .preference__item-text {
+        font-size: 16px;
+    }
 }
 .preference__image {
     flex-basis: 30%;
