@@ -160,3 +160,8 @@
     display: block;
     width: 100%;
 }
+@media (max-width: 576px) {
+    .preference__image img {
+        padding: 0 15px;
+    }
+}

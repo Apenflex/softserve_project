@@ -8,6 +8,10 @@
     --light-button-color: rgb(255, 255, 255);
     --button-text-color: rgb(3, 135, 252);
     --light-text-color: rgb(255, 255, 255);
+    --icons-header-color: rgb(3, 135, 252);
+    --icons-header-background-color: rgb(255, 255, 255);
+    --background-bring-gradient-left: rgba(5, 59, 238, 0.95);
+    --background-bring-gradient-right: rgba(3, 135, 252, 0.95);
     --background-feeds-card: rgb(255, 255, 255);
     --background-integrations: rgb(243, 244, 248);
     --background-management: rgb(243, 244, 248);

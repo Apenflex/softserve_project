@@ -83,6 +83,9 @@
     display: flex;
     padding: 15px 0;
 }
+.analytics__icons-logo {
+    margin: auto;
+}
 .analytics__icons-logo img {
     display: block;
     max-width: 70px;
@@ -100,7 +103,7 @@
 }
 @media (max-width: 576px) {
     .analytics__icons-logo img {
-        max-width: 30px;
+        max-width: 35px;
     }
 }
 .analytics__icons-items {
@@ -108,6 +111,11 @@
     margin: 0 0 0 15px;
     flex-direction: column;
     justify-content: center;
+}
+@media (max-width: 576px) {
+    .analytics__icons-items span {
+        line-height: 18px;
+    }
 }
 .analytics__icons-items-title {
     font-size: 22px;

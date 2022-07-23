@@ -1,0 +1,49 @@
+.bring {
+    min-height: 655px;
+    padding: 0 0 180px;
+    background: url('/img/bring/bring_bg.webp') center center / cover no-repeat;
+    background-image: linear-gradient(to right, var(--background-bring-gradient-left), var(--background-bring-gradient-right)),
+    url('/img/bring/bring_bg.webp');
+}
+header {
+    display: flex;
+    padding: 30px 15px;
+    align-items: center;
+}
+.header__logo {
+    width: 100%;
+}
+.header__logo img {
+    display: block;
+    width: 150px;
+}
+.nav__menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav__menu a {
+    margin: 10px 18px;
+    font-size: 16px;
+}
+.header__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.header__icons a {
+    margin: 0 5px;
+    display: flex;
+    width: 28px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: var(--icons-header-background-color);
+    border-radius: 5px;
+    color: var(--icons-header-color);
+    text-decoration: none;
+}
+.header__icons a i {
+    font-size: 16px;
+}
