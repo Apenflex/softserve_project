@@ -22,9 +22,28 @@ header {
     align-items: center;
     justify-content: flex-end;
 }
+.nav__menu span {
+    padding: 10px 15px;
+    position: relative;
+}
 .nav__menu a {
-    margin: 10px 18px;
+    color: var(--header-nav-menu-text-color);
     font-size: 16px;
+    font-family: var(--textfont);
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav__menu a:hover {
+    color: var(--light-text-color);
+    transition: 0.2s;
+}
+.nav__menu span:hover::before {
+    border-top: 2px rgb(158, 235, 71) solid;
+    content: '';
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 .header__icons {
     display: flex;
