@@ -10,8 +10,11 @@
     --light-text-color: rgb(255, 255, 255);
     --icons-header-color: rgb(3, 135, 252);
     --icons-header-background-color: rgb(255, 255, 255);
+    --icons-header-hover: rgba(255, 255, 255, 0.85);
     --header-nav-menu-text-color: rgba(255, 255, 255, 0.69);
-    --background-bring-gradient-left: rgba(5, 59, 238, 0.95);
+    --header-nav-menu-hover-color: rgb(158, 235, 71);
+    --bring-button-start-hover: rgb(28, 191, 50);
+    --background-bring-gradient-left: rgba(4, 52, 209, 0.95);
     --background-bring-gradient-right: rgba(3, 135, 252, 0.95);
     --background-feeds-card: rgb(255, 255, 255);
     --background-integrations: rgb(243, 244, 248);
