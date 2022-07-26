@@ -52,7 +52,7 @@
                     <h1 class="idea__title">Bring Any Idea to Life</h1>
                     <p class="idea__subtitle">Boost App is a powerful desktop and mobile app to edit and manage your website on-the-go.</p>
                     <div class="idea__buttons">
-                        <a href="#" class="btn__start">Start Free Trial</a>
+                        <button data-modal="start_free" class="btn__start">Start Free Trial</button>
                         <a href="#pricing__plans" class="btn__buy">Buy for Only $9.99</a>
                     </div>
                     <div class="idea__descr">15 days free trial • No credit card required</div>
@@ -340,8 +340,9 @@
                     Try all the features of our app with a free trial. No credit card required.
                 </div>
                 <div class="testimonials__manage-buttons">
-                    <a href="#" class="testimonials__manage-button-start">Start Free Trial</a>
-                    <a href="#analytics" class="testimonials__manage-button-works">
+                    <!-- <a href="#" class="manage-button-start">Start Free Trial</a> -->
+                    <button data-modal="start_free" class="manage-button-start">Start Free Trial</button>
+                    <a href="#analytics" class="manage-button-works">
                         <i class="fa-regular fa-circle-play"></i> How it Works
                     </a>
                 </div>
@@ -565,6 +566,39 @@
             </div>
         </div>
     </footer>
+    <div class="overlay_block">
+        <div class="modal_block" id="modalWindow">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Get Started for FREE!</div>
+            <div class="divider_modal"></div>
+            <div class="modal__descr">Fill out the contact form to get access to a 15-day trial version of our app.</div>
+            <form class="start-form feed-form_modal" action="https://formspree.io/f/xgedgqla" method="POST">
+                <input name="name" placeholder="Enter your name" required type="text">
+                <input name="phone" placeholder="Your phone" required type="tel">
+                <input name="email" placeholder="Your E-mail" required type="email">
+
+                <button class="button button_submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="modal_active modal_mini thankslock" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 32">
+                    <g>
+                    <path fill="#0387fc" d="M18.32 32c-1.51 0-2.93-.62-3.997-1.746-.43-.455-.43-1.19 0-1.645.43-.455 1.128-.455 1.558 0 .653.686 1.52 1.065 2.44 1.065.92 0 1.787-.38 2.438-1.066l19.03-20.077c.652-.687 1.01-1.6 1.01-2.572 0-.97-.358-1.885-1.01-2.572-1.344-1.418-3.532-1.418-4.876 0L24.31 14.573c-.43.454-1.13.454-1.56 0-.43-.454-.43-1.19 0-1.644L33.354 1.743c2.204-2.325 5.79-2.325 7.994 0 2.204 2.325 2.204 6.108 0 8.433l-19.03 20.077C21.25 31.38 19.83 32 18.32 32z">
+                    </path>
+                    <path fill="#0387fc" fill-opacity=".359" d="M24 26.134l-3.295 3.44c-1.82 1.9-4.77 1.9-6.59 0L2.365 17.307c-1.82-1.9-1.82-4.98 0-6.88 1.82-1.9 4.77-1.9 6.59 0L24 26.133z">
+                    </path>
+                    <path fill="#0387fc" d="M18.053 32c-1.592 0-3.088-.645-4.214-1.817L1.742 17.59c-2.324-2.42-2.324-6.354 0-8.773C2.868 7.645 4.365 7 5.957 7c1.592 0 3.088.645 4.213 1.817L25.66 24.94c.453.473.453 1.24 0 1.712l-3.393 3.53C21.142 31.356 19.645 32 18.053 32zM5.957 9.42c-.97 0-1.884.393-2.57 1.108-1.42 1.475-1.42 3.876 0 5.352l12.096 12.592c.686.715 1.6 1.11 2.57 1.11.97 0 1.884-.395 2.57-1.11l2.572-2.676L8.527 10.528c-.686-.715-1.6-1.11-2.57-1.11z">
+                    </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="modal__subtitle">Thank you!</div>
+            <div class="modal__descr">We will contact you shortly.</div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
@@ -572,7 +606,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-     <script src="js/carousel.js"></script>
+     <!-- <script src="js/carousel.js"></script> -->
     <script src="js/script.js"></script>
     <!-- <script src="js/slider.js"></script> -->
 </body>

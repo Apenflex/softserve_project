@@ -20,7 +20,6 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-
 (function() {
 
     const hours = document.getElementById('hours');
@@ -40,3 +39,28 @@ $('.owl-carousel').owlCarousel({
 
 })();
 
+(function (){
+    const modalOpen = document.querySelector('[data-modal=start_free]');
+    const modalOverlay = document.querySelector('.overlay_block');
+    const modalWindow = document.querySelector('.modal_block');
+    
+    modalOpen.addEventListener('click', function(e) {
+        modalOverlay.classList.add('overlay_active');
+        modalWindow.classList.add('modal_active');
+    });
+    
+
+    const modalClose = document.querySelector('.modal__close');
+    modalClose.addEventListener('click', function(e) {
+        if (modalOverlay.classList.contains('overlay_active')) {
+            modalOverlay.classList.remove('overlay_active');
+            modalWindow.classList.remove('modal_active');
+        }
+    });
+    const submitModal = document.querySelector('.button_submit');
+    const modalThanks = document.querySelector('.thankslock');
+    submitModal.addEventListener('click', function(e) {
+        modalWindow.classList.remove('modal_active');
+        modalThanks.classList.add('thanks_active');
+    });  
+})();

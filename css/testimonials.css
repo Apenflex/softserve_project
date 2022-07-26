@@ -222,7 +222,7 @@
         flex-direction: column;
     }
 }
-.testimonials__manage-button-works {
+.manage-button-works {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -232,15 +232,15 @@
     color: var(--button-text-color);
     font-weight: 700;
 }
-.testimonials__manage-button-works i {
+.manage-button-works i {
     margin-right: 10px;
     font-size: 18px;
 }
-.testimonials__manage-button-works:hover {
+.manage-button-works:hover {
     color: var(--light-text-color);
     transition: 0.4s;
 }
-.testimonials__manage-button-start {
+.manage-button-start {
     width: 165px;
     height: 50px;
     background: var(--light-button-color);
@@ -254,7 +254,7 @@
     margin: 10px;
     text-align: center;
 }
-.testimonials__manage-button-start:hover {
+.manage-button-start:hover {
     background: var(--button-color);
     color: var(--light-text-color);
     transition: 0.4s;
