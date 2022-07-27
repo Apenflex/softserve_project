@@ -13,7 +13,10 @@
 .modal_block {
     display: none;
 }
-.modal_active {
+.modal_mini_block {
+    display: none;
+}
+.modal_active, .modal_mini_active {
     display: block;
     position: absolute;
     top: 50%;
@@ -137,6 +140,10 @@ label.error {
     border-radius: 5px;
     font-weight: 700;
 }
+.button_submit:hover {
+    background-color: var(--modal-submit-btn-hover);
+    transition: 0.4s;
+}
 @media (max-width: 768px) {
     .button_submit {
         margin-top: 20px;
@@ -150,9 +157,3 @@ label.error {
     display: block;
 }
 
-.thankslock {
-    display: none;
-}
-.thanks_active {
-    display: block;
-}

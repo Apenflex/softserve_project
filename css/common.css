@@ -24,6 +24,7 @@
     --background-modal: rgb(255, 255, 255);
     --background-modal-input: rgba(243, 244, 248, 0.8);
     --modal-divider-color: rgb(3, 135, 252);
+    --modal-submit-btn-hover: rgb(37, 72, 197);
     /* FONTS */
     --mainfont: 'Work Sans', sans-serif;
     --textfont: 'Hind', sans-serif;

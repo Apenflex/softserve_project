@@ -572,7 +572,7 @@
             <div class="modal__subtitle">Get Started for FREE!</div>
             <div class="divider_modal"></div>
             <div class="modal__descr">Fill out the contact form to get access to a 15-day trial version of our app.</div>
-            <form class="start-form feed-form_modal" action="https://formspree.io/f/xgedgqla" method="POST">
+            <form id="free-form" class="start-form feed-form_modal" action="https://formspree.io/f/xgedgqla" method="POST">
                 <input name="name" placeholder="Enter your name" required type="text">
                 <input name="phone" placeholder="Your phone" required type="tel">
                 <input name="email" placeholder="Your E-mail" required type="email">
@@ -581,7 +581,7 @@
             </form>
         </div>
 
-        <div class="modal_active modal_mini thankslock" id="thanks">
+        <div class="modal_mini_block modal_mini" id="thanks">
             <div class="modal__close">&times;</div>
             <div class="modal__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 32">
@@ -606,8 +606,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
      <!-- <script src="js/carousel.js"></script> -->
+     <script src="js/jquery.maskedinput.min.js"></script>
+     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
-    <!-- <script src="js/slider.js"></script> -->
 </body>
 </html> 
