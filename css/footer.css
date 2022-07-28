@@ -93,6 +93,7 @@ footer {
     display: flex;
     align-items: center;
     min-height: 62px;
+    justify-content: space-between;
 }
 .reserved span {
     width: 33%;
@@ -110,9 +111,6 @@ footer {
     }
     .reserved span:nth-child(3) {
         width: 50%;
-    }
-    .reserved {
-        justify-content: space-between;
     }
     .reserved span {
         font-size: 12px;
