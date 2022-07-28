@@ -71,8 +71,9 @@
             <div class="slider__title">
                 <span>Trusted by hundreds</span> of the world's IT giants:
             </div>
-                <div class="slider">
-                    <div class="owl-carousel owl-theme">
+                <div class="carousel">
+                    <div class="carousel__wrapper">
+                        
                         <img class="slider-item" src="img/slider/docker_logo.png" alt="Docker logotype">
                         <img class="slider-item" src="img/slider/google_logo.png" alt="Google logotype">
                         <img class="slider-item" src="img/slider/ibm_logo.png" alt="IBM logotype">
@@ -81,6 +82,16 @@
                         <img class="slider-item" src="img/slider/shutterstock_logo.png" alt="Shutterstock logotype">
                     </div>
                 </div>
+                <!-- <div class="slider">
+                    <div class="owl-carousel owl-theme">
+                        <img class="slider-item" src="img/slider/docker_logo.png" alt="Docker logotype">
+                        <img class="slider-item" src="img/slider/google_logo.png" alt="Google logotype">
+                        <img class="slider-item" src="img/slider/ibm_logo.png" alt="IBM logotype">
+                        <img class="slider-item" src="img/slider/optimizely_logo.png" alt="Optimizely logotype">
+                        <img class="slider-item" src="img/slider/github_logo.png" alt="GitHub logotype">
+                        <img class="slider-item" src="img/slider/shutterstock_logo.png" alt="Shutterstock logotype">
+                    </div>
+                </div> -->
         </div>
     </section>
 
@@ -248,7 +259,7 @@
                         <img src="icons/analytics/widgets.svg" alt="Logo for widgets" />
                     </div>
                     <div class="analytics__icons-items">
-                        <span class="analytics__icons-items-title">240+</span>
+                        <span class="analytics__icons-items-title count" data-target="240">0</span>
                         <span class="analytics__icons-items-text">Widgets</span>
                     </div>
                 </div>
@@ -258,7 +269,7 @@
                         <img src="icons/analytics/services.svg" alt="Logo for  services" />
                     </div>
                     <div class="analytics__icons-items">
-                        <span class="analytics__icons-items-title">50+</span>
+                        <span class="analytics__icons-items-title count" data-target="50">0</span>
                         <span class="analytics__icons-items-text">Services</span>
                     </div>
                 </div>
@@ -268,7 +279,7 @@
                         <img src="icons/analytics/styles.svg" alt="Logo for styles" />
                     </div>
                     <div class="analytics__icons-items">
-                        <span class="analytics__icons-items-title">100+</span>
+                        <span class="analytics__icons-items-title count" data-target="100">0</span>
                         <span class="analytics__icons-items-text">Styles</span>
                     </div>
                 </div>
@@ -574,7 +585,7 @@
             <div class="modal__subtitle">Get Started for FREE!</div>
             <div class="divider_modal"></div>
             <div class="modal__descr">Fill out the contact form to get access to a 15-day trial version of our app.</div>
-            <form id="free-form" class="start-form feed-form_modal" action="https://formspree.io/f/xgedgqla" method="POST">
+            <form id="free-form" class="start-form feed-form_modal" method="POST">
                 <input name="name" placeholder="Enter your name" required type="text">
                 <input name="phone" placeholder="Your phone" required type="tel">
                 <input name="email" placeholder="Your E-mail" required type="email">
@@ -597,8 +608,8 @@
                     </g>
                 </svg>
             </div>
-            <div class="modal__subtitle">Thank you!</div>
-            <div class="modal__descr">We will contact you shortly.</div>
+            <div class="modal__subtitle modal_error_oops">Thank you!</div>
+            <div class="modal__descr modal_error">We will contact you shortly.</div>
         </div>
     </div>
 
@@ -608,11 +619,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <!-- <script src="js/jquery.maskedinput.min.js"></script> -->
-        <script src="js/burger.js"></script>
-     <script src="js/carousel.js"></script>
-     <script src="js/clock.js"></script>
+    <script src="js/counters.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/clock.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html> 
