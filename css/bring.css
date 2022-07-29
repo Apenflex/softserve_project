@@ -1,7 +1,7 @@
 .bring {
     min-height: 655px;
     padding: 0 0 180px;
-    background: url('../img/bring/bring_bg_resize_min.jpg') center center / cover no-repeat;
+    background: url('../../img/bring/bring_bg_resize_min.jpg') center center / cover no-repeat;
     background-image: linear-gradient(to right, var(--background-bring-gradient-left), var(--background-bring-gradient-right)),
     url('/img/bring/bring_bg_resize_min.jpg');
 }
