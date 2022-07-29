@@ -1,7 +1,7 @@
 (function scrollDown(e) {
     const counters = document.querySelectorAll('.count');
     const speed = 50;
-    if(window.pageYOffset > 4180){
+    if(window.pageYOffset > 4190){
         counters.forEach((counter) => {
             const updateCount = () => {
             const target = parseInt(+counter.getAttribute('data-target'));
@@ -10,7 +10,7 @@
     
             if (count < target) {
                 counter.innerText = count + increment;
-                setTimeout(updateCount, 200);
+                setTimeout(updateCount, 90);
             }else {
                 counter.innerText = target;
             }
